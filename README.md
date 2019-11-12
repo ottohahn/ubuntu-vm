@@ -106,7 +106,10 @@ host    replication     all             ::1/128                 md5
 
 ## Installing MySQL
 
-
+```
+sudo apt install mysql-server
+sudo mysql_secure_installation
+```
 
 ## Installing and configuring git
 
