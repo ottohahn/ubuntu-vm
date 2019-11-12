@@ -68,7 +68,15 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 ## Installing conda
 
+Download installer from www.anaconda.com/distribution
+
+```
+bash Anaconda3-2019.03-Linux-x86_64.sh
+```
+
 ## Installing spyder
+
+Spyder comes with Anaconda, launch conda and then `anaconda-navigator` in terminal
 
 ## Installing PostgreSQL
 
