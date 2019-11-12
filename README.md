@@ -5,6 +5,7 @@ A repo for holding ubuntu configs and scripts to setup a development and data sc
 ## Contents
 
 - VM Settings
+- Installing SSH
 - Installing golang
 - Installing conda
 - Installing spyder
@@ -40,6 +41,12 @@ Flask     | TCP      | 5050      | 127.0.0.1 | 5000     | 10.0.2.15
 Postgres  | TCP      | 5433      | 127.0.0.1 | 5432     | 10.0.2.15    
 MySQL     | TCP      | 3307      | 127.0.0.1 | 3306     | 10.0.2.15
 Elastic   | TCP      | 9292      | 127.0.0.1 | 9200     | 10.0.2.15
+
+## Installing SSH
+
+```
+sudo apt install openssh-server
+```
 
 ## Installing golang
 
