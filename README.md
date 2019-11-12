@@ -60,6 +60,12 @@ sudo apt install openssh-server
 
 ## Installing and configuring git
 
+```
+sudo apt install git
+git config --global user.name "myname"
+git config --global user.email "myemail"
+```
+
 ## Installing DBeaver
 
 ## Installing Flask
