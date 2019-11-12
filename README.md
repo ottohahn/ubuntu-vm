@@ -50,6 +50,22 @@ sudo apt install openssh-server
 
 ## Installing golang
 
+```
+wget https://dl.google.com/go/go1.13.4.linux-amd64.tar.gz
+sudo tar -xvf go1.13.4.linux-amd64.tar.gz
+sudo mv go /usr/local
+```
+Configure golang environment
+
+```
+~/.profile
+
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/Projects/Golang # Por ejemplo
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+```
+
+
 ## Installing conda
 
 ## Installing spyder
