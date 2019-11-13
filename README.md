@@ -125,7 +125,33 @@ git config --global user.email "myemail"
 
 ## Installing ElasticSearch
 
-## Migrating databases and code to VM
+```
+wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
+sudo apt-get install apt-transport-https
+echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list
+sudo apt-get update && sudo apt-get install elasticsearch
+sudo /bin/systemctl daemon-reload
+sudo /bin/systemctl enable elasticsearch.service
+```
+
+Configuration
+
+Check the following file and put the same names in the bootstrap options
+
+```
+/etc/elasticsearch/elasticsearch.yml
+
+network.host: 0.0.0.0
+cluster.name: myCluster1
+node.name: "myNode1"
+```
+
+## Install DBeaver 6.1.0
+
+We use this version as it is the last to support dummy data generation
+
+download deb file from: https://github.com/dbeaver/dbeaver/releases/tag/6.1.0
+Install with software installer
 
 ## Author
 
