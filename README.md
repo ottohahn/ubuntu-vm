@@ -12,10 +12,9 @@ A repo for holding ubuntu configs and scripts to setup a development and data sc
 - Installing PostgreSQL
 - Installing MySQL
 - Installing and configuring git
-- Installing DBeaver
 - Installing Flask
 - Installing ElasticSearch
-- Migrating databases and code to VM
+- Install DBeaver 6.1.0
 
 ## VM Settings
 
@@ -118,8 +117,6 @@ sudo apt install git
 git config --global user.name "myname"
 git config --global user.email "myemail"
 ```
-
-## Installing DBeaver
 
 ## Installing Flask
 
